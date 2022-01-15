@@ -20,6 +20,9 @@
 		58A7B8CE2792CAF900D73A66 /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = 58A7B8CD2792CAF900D73A66 /* FirebaseCrashlytics */; };
 		58A7B8D02792CAF900D73A66 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 58A7B8CF2792CAF900D73A66 /* FirebaseMessaging */; };
 		58A7B8D22792CAF900D73A66 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 58A7B8D12792CAF900D73A66 /* FirebaseAuth */; };
+		58A7B8D6279356EA00D73A66 /* Listings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58A7B8D5279356EA00D73A66 /* Listings.swift */; };
+		58A7B8D8279356F100D73A66 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58A7B8D7279356F100D73A66 /* Settings.swift */; };
+		58A7B8DA279356FB00D73A66 /* CreateListing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58A7B8D9279356FA00D73A66 /* CreateListing.swift */; };
 		58CD48B6279142CE005CB6EB /* LaundryAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58CD48B5279142CE005CB6EB /* LaundryAppApp.swift */; };
 		58CD48B8279142CE005CB6EB /* Title.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58CD48B7279142CE005CB6EB /* Title.swift */; };
 		58CD48BA279142CF005CB6EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58CD48B9279142CF005CB6EB /* Assets.xcassets */; };
@@ -32,6 +35,9 @@
 		5864CF0F2792BAE700978283 /* SignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
 		5864CF112792BAF600978283 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
 		5864CF132792BBD100978283 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		58A7B8D5279356EA00D73A66 /* Listings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Listings.swift; sourceTree = "<group>"; };
+		58A7B8D7279356F100D73A66 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		58A7B8D9279356FA00D73A66 /* CreateListing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateListing.swift; sourceTree = "<group>"; };
 		58CD48B2279142CE005CB6EB /* LaundryApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LaundryApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		58CD48B5279142CE005CB6EB /* LaundryAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaundryAppApp.swift; sourceTree = "<group>"; };
 		58CD48B7279142CE005CB6EB /* Title.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Title.swift; sourceTree = "<group>"; };
@@ -83,6 +89,9 @@
 				5864CF0D2792BADA00978283 /* SignIn.swift */,
 				5864CF0F2792BAE700978283 /* SignUp.swift */,
 				5864CF112792BAF600978283 /* HomeScreen.swift */,
+				58A7B8D7279356F100D73A66 /* Settings.swift */,
+				58A7B8D5279356EA00D73A66 /* Listings.swift */,
+				58A7B8D9279356FA00D73A66 /* CreateListing.swift */,
 				1A36F29B2792C81B00AD5C8B /* LaundryHouse.swift */,
 				58CD48B9279142CF005CB6EB /* Assets.xcassets */,
 				58CD48BE279142CF005CB6EB /* Info.plist */,
@@ -183,9 +192,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58A7B8D6279356EA00D73A66 /* Listings.swift in Sources */,
 				58CD48B8279142CE005CB6EB /* Title.swift in Sources */,
+				58A7B8D8279356F100D73A66 /* Settings.swift in Sources */,
 				5864CF122792BAF600978283 /* HomeScreen.swift in Sources */,
 				5864CF102792BAE700978283 /* SignUp.swift in Sources */,
+				58A7B8DA279356FB00D73A66 /* CreateListing.swift in Sources */,
 				5864CF0E2792BADA00978283 /* SignIn.swift in Sources */,
 				1A36F29C2792C81C00AD5C8B /* LaundryHouse.swift in Sources */,
 				58CD48B6279142CE005CB6EB /* LaundryAppApp.swift in Sources */,

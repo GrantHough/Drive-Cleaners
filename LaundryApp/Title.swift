@@ -41,6 +41,7 @@ struct Title: View {
                             .foregroundColor(Color.white)
                             .fontWeight(.bold)
                             .padding(5)
+                            .shadow(radius: 4)
                         
                         
                         Text("Customizable. Convenient.")
@@ -50,6 +51,7 @@ struct Title: View {
                             .multilineTextAlignment(.center)
                             .padding(.leading, 30)
                             .padding(.trailing, 30)
+                            .shadow(radius: 3)
                         
                         NavigationLink(destination: SignIn()) {
                             
@@ -98,6 +100,9 @@ struct Title: View {
                 
                 .ignoresSafeArea()
             }
+        }
+        .onAppear() {
+            viewModel.signedIn = viewModel.isSignedIn
         }
     }
     
