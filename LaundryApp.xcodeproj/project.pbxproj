@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		58CD48B6279142CE005CB6EB /* LaundryAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58CD48B5279142CE005CB6EB /* LaundryAppApp.swift */; };
-		58CD48B8279142CE005CB6EB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58CD48B7279142CE005CB6EB /* ContentView.swift */; };
+		58CD48B8279142CE005CB6EB /* Title.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58CD48B7279142CE005CB6EB /* Title.swift */; };
 		58CD48BA279142CF005CB6EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58CD48B9279142CF005CB6EB /* Assets.xcassets */; };
 		58CD48BD279142CF005CB6EB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58CD48BC279142CF005CB6EB /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -16,7 +16,7 @@
 /* Begin PBXFileReference section */
 		58CD48B2279142CE005CB6EB /* LaundryApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LaundryApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		58CD48B5279142CE005CB6EB /* LaundryAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaundryAppApp.swift; sourceTree = "<group>"; };
-		58CD48B7279142CE005CB6EB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		58CD48B7279142CE005CB6EB /* Title.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Title.swift; sourceTree = "<group>"; };
 		58CD48B9279142CF005CB6EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		58CD48BC279142CF005CB6EB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		58CD48BE279142CF005CB6EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -53,7 +53,7 @@
 			isa = PBXGroup;
 			children = (
 				58CD48B5279142CE005CB6EB /* LaundryAppApp.swift */,
-				58CD48B7279142CE005CB6EB /* ContentView.swift */,
+				58CD48B7279142CE005CB6EB /* Title.swift */,
 				58CD48B9279142CF005CB6EB /* Assets.xcassets */,
 				58CD48BE279142CF005CB6EB /* Info.plist */,
 				58CD48BB279142CF005CB6EB /* Preview Content */,
@@ -138,7 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				58CD48B8279142CE005CB6EB /* ContentView.swift in Sources */,
+				58CD48B8279142CE005CB6EB /* Title.swift in Sources */,
 				58CD48B6279142CE005CB6EB /* LaundryAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
