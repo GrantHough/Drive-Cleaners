@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5864CF0E2792BADA00978283 /* SignIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5864CF0D2792BADA00978283 /* SignIn.swift */; };
+		5864CF102792BAE700978283 /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5864CF0F2792BAE700978283 /* SignUp.swift */; };
+		5864CF122792BAF600978283 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5864CF112792BAF600978283 /* HomeScreen.swift */; };
 		58CD48B6279142CE005CB6EB /* LaundryAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58CD48B5279142CE005CB6EB /* LaundryAppApp.swift */; };
 		58CD48B8279142CE005CB6EB /* Title.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58CD48B7279142CE005CB6EB /* Title.swift */; };
 		58CD48BA279142CF005CB6EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58CD48B9279142CF005CB6EB /* Assets.xcassets */; };
@@ -14,6 +17,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5864CF0D2792BADA00978283 /* SignIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignIn.swift; sourceTree = "<group>"; };
+		5864CF0F2792BAE700978283 /* SignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
+		5864CF112792BAF600978283 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
 		58CD48B2279142CE005CB6EB /* LaundryApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LaundryApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		58CD48B5279142CE005CB6EB /* LaundryAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaundryAppApp.swift; sourceTree = "<group>"; };
 		58CD48B7279142CE005CB6EB /* Title.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Title.swift; sourceTree = "<group>"; };
@@ -54,6 +60,9 @@
 			children = (
 				58CD48B5279142CE005CB6EB /* LaundryAppApp.swift */,
 				58CD48B7279142CE005CB6EB /* Title.swift */,
+				5864CF0D2792BADA00978283 /* SignIn.swift */,
+				5864CF0F2792BAE700978283 /* SignUp.swift */,
+				5864CF112792BAF600978283 /* HomeScreen.swift */,
 				58CD48B9279142CF005CB6EB /* Assets.xcassets */,
 				58CD48BE279142CF005CB6EB /* Info.plist */,
 				58CD48BB279142CF005CB6EB /* Preview Content */,
@@ -139,6 +148,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				58CD48B8279142CE005CB6EB /* Title.swift in Sources */,
+				5864CF122792BAF600978283 /* HomeScreen.swift in Sources */,
+				5864CF102792BAE700978283 /* SignUp.swift in Sources */,
+				5864CF0E2792BADA00978283 /* SignIn.swift in Sources */,
 				58CD48B6279142CE005CB6EB /* LaundryAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
