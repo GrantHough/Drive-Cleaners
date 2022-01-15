@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1A36F29C2792C81C00AD5C8B /* LaundryHouse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A36F29B2792C81B00AD5C8B /* LaundryHouse.swift */; };
+		1A64596D279363E200039A4E /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A64596C279363E200039A4E /* Manager.swift */; };
 		5864CF0E2792BADA00978283 /* SignIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5864CF0D2792BADA00978283 /* SignIn.swift */; };
 		5864CF102792BAE700978283 /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5864CF0F2792BAE700978283 /* SignUp.swift */; };
 		5864CF122792BAF600978283 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5864CF112792BAF600978283 /* HomeScreen.swift */; };
@@ -31,6 +32,7 @@
 
 /* Begin PBXFileReference section */
 		1A36F29B2792C81B00AD5C8B /* LaundryHouse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaundryHouse.swift; sourceTree = "<group>"; };
+		1A64596C279363E200039A4E /* Manager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Manager.swift; sourceTree = "<group>"; };
 		5864CF0D2792BADA00978283 /* SignIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignIn.swift; sourceTree = "<group>"; };
 		5864CF0F2792BAE700978283 /* SignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
 		5864CF112792BAF600978283 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
@@ -91,6 +93,7 @@
 				5864CF112792BAF600978283 /* HomeScreen.swift */,
 				58A7B8D7279356F100D73A66 /* Settings.swift */,
 				58A7B8D5279356EA00D73A66 /* Listings.swift */,
+				1A64596C279363E200039A4E /* Manager.swift */,
 				58A7B8D9279356FA00D73A66 /* CreateListing.swift */,
 				1A36F29B2792C81B00AD5C8B /* LaundryHouse.swift */,
 				58CD48B9279142CF005CB6EB /* Assets.xcassets */,
@@ -201,6 +204,7 @@
 				5864CF0E2792BADA00978283 /* SignIn.swift in Sources */,
 				1A36F29C2792C81C00AD5C8B /* LaundryHouse.swift in Sources */,
 				58CD48B6279142CE005CB6EB /* LaundryAppApp.swift in Sources */,
+				1A64596D279363E200039A4E /* Manager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

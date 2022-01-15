@@ -25,7 +25,8 @@ struct HomeScreen: View {
                 
                 CreateListing()
                     .tabItem {
-                        Image(systemName:"upload")
+                        Image(systemName:"gear")
+                        //supposed to be upload but Neal changed cuz of purple flag
                         Text("Create Listing")
                     }
                 
