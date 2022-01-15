@@ -12,7 +12,6 @@
 		5864CF0E2792BADA00978283 /* SignIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5864CF0D2792BADA00978283 /* SignIn.swift */; };
 		5864CF102792BAE700978283 /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5864CF0F2792BAE700978283 /* SignUp.swift */; };
 		5864CF122792BAF600978283 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5864CF112792BAF600978283 /* HomeScreen.swift */; };
-		5864CF142792BBD100978283 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5864CF132792BBD100978283 /* GoogleService-Info.plist */; };
 		58A7B8D6279356EA00D73A66 /* Listings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58A7B8D5279356EA00D73A66 /* Listings.swift */; };
 		58A7B8D8279356F100D73A66 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58A7B8D7279356F100D73A66 /* Settings.swift */; };
 		58A7B8DA279356FB00D73A66 /* CreateListing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58A7B8D9279356FA00D73A66 /* CreateListing.swift */; };
@@ -33,6 +32,10 @@
 		58A7B8F927936CBB00D73A66 /* FirebaseFirestoreCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 58A7B8F827936CBB00D73A66 /* FirebaseFirestoreCombine-Community */; };
 		58A7B8FB27936EE800D73A66 /* Offer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58A7B8FA27936EE800D73A66 /* Offer.swift */; };
 		58A7B8FD2793725300D73A66 /* ListingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58A7B8FC2793725300D73A66 /* ListingsViewModel.swift */; };
+		58A7B8FF2793751900D73A66 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 58A7B8FE2793751800D73A66 /* GoogleService-Info.plist */; };
+		58A7B9012793772300D73A66 /* OfferView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58A7B9002793772300D73A66 /* OfferView.swift */; };
+		58A7B9032793775700D73A66 /* OfferViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58A7B9022793775700D73A66 /* OfferViewModel.swift */; };
+		58A7B90527937C4D00D73A66 /* FormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58A7B90427937C4D00D73A66 /* FormView.swift */; };
 		58CD48B6279142CE005CB6EB /* LaundryAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58CD48B5279142CE005CB6EB /* LaundryAppApp.swift */; };
 		58CD48B8279142CE005CB6EB /* Title.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58CD48B7279142CE005CB6EB /* Title.swift */; };
 		58CD48BA279142CF005CB6EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58CD48B9279142CF005CB6EB /* Assets.xcassets */; };
@@ -45,13 +48,16 @@
 		5864CF0D2792BADA00978283 /* SignIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignIn.swift; sourceTree = "<group>"; };
 		5864CF0F2792BAE700978283 /* SignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
 		5864CF112792BAF600978283 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
-		5864CF132792BBD100978283 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		58A7B8D5279356EA00D73A66 /* Listings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Listings.swift; sourceTree = "<group>"; };
 		58A7B8D7279356F100D73A66 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 		58A7B8D9279356FA00D73A66 /* CreateListing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateListing.swift; sourceTree = "<group>"; };
 		58A7B8DB27936BD400D73A66 /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
 		58A7B8FA27936EE800D73A66 /* Offer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Offer.swift; sourceTree = "<group>"; };
 		58A7B8FC2793725300D73A66 /* ListingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingsViewModel.swift; sourceTree = "<group>"; };
+		58A7B8FE2793751800D73A66 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		58A7B9002793772300D73A66 /* OfferView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferView.swift; sourceTree = "<group>"; };
+		58A7B9022793775700D73A66 /* OfferViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferViewModel.swift; sourceTree = "<group>"; };
+		58A7B90427937C4D00D73A66 /* FormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormView.swift; sourceTree = "<group>"; };
 		58CD48B2279142CE005CB6EB /* LaundryApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LaundryApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		58CD48B5279142CE005CB6EB /* LaundryAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaundryAppApp.swift; sourceTree = "<group>"; };
 		58CD48B7279142CE005CB6EB /* Title.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Title.swift; sourceTree = "<group>"; };
@@ -111,15 +117,18 @@
 				58A7B8DB27936BD400D73A66 /* Repository.swift */,
 				58A7B8FA27936EE800D73A66 /* Offer.swift */,
 				58A7B8FC2793725300D73A66 /* ListingsViewModel.swift */,
+				58A7B9022793775700D73A66 /* OfferViewModel.swift */,
 				5864CF112792BAF600978283 /* HomeScreen.swift */,
+				58A7B9002793772300D73A66 /* OfferView.swift */,
 				58A7B8D7279356F100D73A66 /* Settings.swift */,
 				58A7B8D5279356EA00D73A66 /* Listings.swift */,
+				58A7B90427937C4D00D73A66 /* FormView.swift */,
 				1A64596C279363E200039A4E /* Manager.swift */,
 				58A7B8D9279356FA00D73A66 /* CreateListing.swift */,
 				1A36F29B2792C81B00AD5C8B /* LaundryHouse.swift */,
 				58CD48B9279142CF005CB6EB /* Assets.xcassets */,
 				58CD48BE279142CF005CB6EB /* Info.plist */,
-				5864CF132792BBD100978283 /* GoogleService-Info.plist */,
+				58A7B8FE2793751800D73A66 /* GoogleService-Info.plist */,
 				58CD48BB279142CF005CB6EB /* Preview Content */,
 			);
 			path = LaundryApp;
@@ -209,7 +218,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5864CF142792BBD100978283 /* GoogleService-Info.plist in Resources */,
+				58A7B8FF2793751900D73A66 /* GoogleService-Info.plist in Resources */,
 				58CD48BD279142CF005CB6EB /* Preview Assets.xcassets in Resources */,
 				58CD48BA279142CF005CB6EB /* Assets.xcassets in Resources */,
 			);
@@ -223,15 +232,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				58A7B8FB27936EE800D73A66 /* Offer.swift in Sources */,
+				58A7B9012793772300D73A66 /* OfferView.swift in Sources */,
 				58A7B8FD2793725300D73A66 /* ListingsViewModel.swift in Sources */,
 				58A7B8D6279356EA00D73A66 /* Listings.swift in Sources */,
 				58CD48B8279142CE005CB6EB /* Title.swift in Sources */,
 				58A7B8D8279356F100D73A66 /* Settings.swift in Sources */,
 				5864CF122792BAF600978283 /* HomeScreen.swift in Sources */,
 				5864CF102792BAE700978283 /* SignUp.swift in Sources */,
+				58A7B90527937C4D00D73A66 /* FormView.swift in Sources */,
 				58A7B8DC27936BD400D73A66 /* Repository.swift in Sources */,
 				58A7B8DA279356FB00D73A66 /* CreateListing.swift in Sources */,
 				5864CF0E2792BADA00978283 /* SignIn.swift in Sources */,
+				58A7B9032793775700D73A66 /* OfferViewModel.swift in Sources */,
 				1A36F29C2792C81C00AD5C8B /* LaundryHouse.swift in Sources */,
 				58CD48B6279142CE005CB6EB /* LaundryAppApp.swift in Sources */,
 				1A64596D279363E200039A4E /* Manager.swift in Sources */,

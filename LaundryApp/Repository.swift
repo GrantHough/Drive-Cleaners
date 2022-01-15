@@ -41,4 +41,26 @@ final class OfferRepository: ObservableObject {
         }
     }
     
+    func update(_ offer: Offer) {
+        guard let documentId = offer.id else { return }
+        do {
+            try store.collection(path)
+                .document(documentId)
+                .setData(from: offer)
+        } catch {
+            fatalError("Updating offer failed")
+        }
+
+    }
+    
+    func remove(_ offer: Offer) {
+        guard let documentId = offer.id else { return }
+        store.collection(path)
+            .document(documentId).delete { error in
+                if let error = error {
+                    print("Unable to remove the offer: \(error.localizedDescription)")
+                }
+            }
+    }
+    
 }
