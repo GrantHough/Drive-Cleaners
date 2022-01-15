@@ -17,7 +17,7 @@ struct HomeScreen: View {
             
             TabView {
                
-                Listings()
+                Listings(offerListViewModel: OfferListViewModel())
                     .tabItem {
                         Image(systemName:"book")
                         Text("Listings")
