@@ -13,7 +13,7 @@ struct HomeScreen: View {
 
         var body: some View {
             Text("")
-            List(x, id: .name) { xx in
+            List(x, id: \.name) { xx in
                 VStack{
                     Text(xx.name)
                     Text(xx.address)
