@@ -20,5 +20,6 @@ struct Offer: Identifiable, Codable {
     var delivery: Bool = false
     var estimatedTime: Int = 0//idea from grant
     var email: String = ""
+    var price: Int = 0
     
 }
