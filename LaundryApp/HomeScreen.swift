@@ -23,12 +23,12 @@ struct HomeScreen: View {
                         Text("Listings")
                     }
                 
-                CreateListing()
-                    .tabItem {
-                        Image(systemName:"gear")
-                        //supposed to be upload but Neal changed cuz of purple flag
-                        Text("Create Listing")
-                    }
+//                CreateListing()
+//                    .tabItem {
+//                        Image(systemName:"gear")
+//                        //supposed to be upload but Neal changed cuz of purple flag
+//                        Text("Create Listing")
+//                    }
                 
                 Settings()
                     .tabItem {

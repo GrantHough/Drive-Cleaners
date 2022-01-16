@@ -8,7 +8,9 @@
 import Foundation
 import UIKit
 
-struct LaundryHouse {
+struct LaundryHouse: Identifiable, Codable {
+    var id: String
+    
     
     
     var name: String = ""
@@ -19,6 +21,8 @@ struct LaundryHouse {
     var typeOfLoad: String = ""
     
     init(name: String, address: String){
+        self.id = ""
+        
         self.name = name
         self.address = address
         self.drying = false
@@ -28,6 +32,8 @@ struct LaundryHouse {
     }
     
     init(name: String, address: String, drying: Bool, folding: Bool, soapBrand: String, typeOfLoad: String){
+        self.id = ""
+        
         self.name = name
         self.address = address
         self.drying = drying

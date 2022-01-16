@@ -22,12 +22,26 @@ final class OfferRepository: ObservableObject {
     func getInfo() {
         store.collection(path)
             .addSnapshotListener { (snapshot, error) in
-                if let error = error {
-                    print(error)
-                    return
-                }
-                self.offers = snapshot?.documents.compactMap {
-                    try? $0.data(as: Offer.self)
+                guard let documents = snapshot?.documents else {
+                      print("No documents")
+                      return
+                    }
+                
+//                self.offers = documents.map { snapshot -> Offer in
+//
+//                    let data = snapshot.data()
+//                    let name = data["name"] as? String ?? ""
+//                    let address = data["address"] as? String ?? ""
+//                    let folding = data["folding"] as? Bool ?? false
+//                    let drying = data["drying"] as? Bool ?? false
+//                    let soapBrand = data["soapBrand"] as? String ?? ""
+//                    let typeOfLoad = data["typeOfLoad"] as? String ?? ""
+//
+//                    return  Offer(name: name, address: address, folding: folding, drying: drying, soapBrand: soapBrand, typeOfLoad: typeOfLoad)
+//
+//
+//                }
+                self.offers = snapshot?.documents.compactMap { snapshot -> Offer? in try? snapshot.data(as: Offer.self)
                 } ?? []
             }
     }
