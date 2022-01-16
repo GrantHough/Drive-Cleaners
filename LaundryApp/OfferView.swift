@@ -25,9 +25,24 @@ struct OfferView: View {
                         ZStack {
     
                             HStack {
-                                Text(offerViewModel.offer.name + "'s offer - $$")
-                                    .foregroundColor(.black)
-                                    .font(.custom("Avenir", size: 25))
+                                if (offerViewModel.offer.price == 1) {
+                                    Text(offerViewModel.offer.name + "'s listing - $")
+                                        .foregroundColor(.black)
+                                        .font(.custom("Avenir", size: 25))
+                                }
+                                
+                                if (offerViewModel.offer.price == 2) {
+                                    Text(offerViewModel.offer.name + "'s listing - $$")
+                                        .foregroundColor(.black)
+                                        .font(.custom("Avenir", size: 25))
+                                }
+                                
+                                if (offerViewModel.offer.price == 3) {
+                                    Text(offerViewModel.offer.name + "'s listing - $$$")
+                                        .foregroundColor(.black)
+                                        .font(.custom("Avenir", size: 25))
+                                }
+                                
                                 
                                 
                                 //                            Button(action: {

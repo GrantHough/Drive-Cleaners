@@ -29,14 +29,14 @@ struct Title: View {
                     
                     VStack(spacing: 0) {
                         
-                        Rectangle()
-                            .foregroundColor(.white)
-                            .frame(width: UIScreen.main.bounds.width * 0.45, height: UIScreen.main.bounds.width * 0.45, alignment: .center)
-                            .cornerRadius(40, antialiased: /*@START_MENU_TOKEN@*/true/*@END_MENU_TOKEN@*/)
+                        Image("logo")
+                            .resizable()
+                            .frame(width: UIScreen.main.bounds.width * 0.5, height: UIScreen.main.bounds.width * 0.5, alignment: .center)
+                            .cornerRadius(36, antialiased: /*@START_MENU_TOKEN@*/true/*@END_MENU_TOKEN@*/)
                             .padding(60)
                             .shadow(radius: 8)
                         
-                        Text("Cool Name")
+                        Text("Drive Cleaners")
                             .font(.system(size: UIScreen.main.bounds.width * 0.1))
                             .foregroundColor(Color.white)
                             .fontWeight(.bold)

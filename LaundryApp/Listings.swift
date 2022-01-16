@@ -45,7 +45,7 @@ struct Listings: View {
                         .frame(height: 10)
                     
                     ForEach (offerListViewModel.offerViewModel.filter {
-                                $0.offer.delivery == showDelivery }) { offerVM in
+                                $0.offer.delivery == showDelivery || true }) { offerVM in
                         OfferView(offerViewModel: offerVM)
                     }
                     .onDelete(perform: delete)
@@ -62,9 +62,9 @@ struct Listings: View {
                     showingForm = true
                 }) {
                     Circle()
-                        .fill(Color.green)
+                        .fill(Color.white)
                         .frame(height: 60)
-                        .overlay(Image(systemName: "plus").foregroundColor(.white))
+                        .overlay(Image(systemName: "plus").foregroundColor(.black))
                 }
                 .sheet(isPresented: $showingForm) {
                     FormView { (offer) in

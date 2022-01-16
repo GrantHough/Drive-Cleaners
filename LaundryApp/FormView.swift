@@ -48,18 +48,30 @@ struct FormView: View {
                             }
                             Text(selectedSoap)
                         }
-                        Menu("Price") {
-                            Button("$", action: {
-                                price = 1
-                            })
-                            Button("$$", action: {
-                                price = 2
-                            })
-                            Button("$$$", action: {
-                                price = 3
-                            })
+                        HStack {
+                            Menu("Price") {
+                                Button("$", action: {
+                                    price = 1
+                                })
+                                Button("$$", action: {
+                                    price = 2
+                                })
+                                Button("$$$", action: {
+                                    price = 3
+                                })
+                            }
+                            if (price == 1) {
+                                Text("$")
+                            }
+                            
+                            if (price == 2) {
+                                Text("$$")
+                            }
+                            
+                            if (price == 3) {
+                                Text("$$$")
+                            }
                         }
-                        
                         Toggle("Will you fold the clothes?", isOn: $willFoldClothes)
                         Toggle("Can you hang-dry clothes?", isOn: $willDryClothes)
                         Toggle("Will you pickup/deliver to the clients home?", isOn: $deliver)
@@ -69,6 +81,8 @@ struct FormView: View {
                             }
                         })
                         TextField("Email: ", text: $email).disableAutocorrection(true)
+                            .autocapitalization(.none)
+                            
                         TextField("Any other specifics?", text: $typeOfLoad)
                         
                     }

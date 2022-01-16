@@ -38,7 +38,7 @@
 		58A7B90527937C4D00D73A66 /* FormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58A7B90427937C4D00D73A66 /* FormView.swift */; };
 		58A7B9072793D46A00D73A66 /* DescriptionPopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58A7B9062793D46900D73A66 /* DescriptionPopup.swift */; };
 		58A7B9092793EF8600D73A66 /* OfferDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58A7B9082793EF8600D73A66 /* OfferDemo.swift */; };
-		58CD48B6279142CE005CB6EB /* LaundryAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58CD48B5279142CE005CB6EB /* LaundryAppApp.swift */; };
+		58CD48B6279142CE005CB6EB /* LaundryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58CD48B5279142CE005CB6EB /* LaundryApp.swift */; };
 		58CD48B8279142CE005CB6EB /* Title.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58CD48B7279142CE005CB6EB /* Title.swift */; };
 		58CD48BA279142CF005CB6EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58CD48B9279142CF005CB6EB /* Assets.xcassets */; };
 		58CD48BD279142CF005CB6EB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58CD48BC279142CF005CB6EB /* Preview Assets.xcassets */; };
@@ -62,8 +62,8 @@
 		58A7B90427937C4D00D73A66 /* FormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormView.swift; sourceTree = "<group>"; };
 		58A7B9062793D46900D73A66 /* DescriptionPopup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionPopup.swift; sourceTree = "<group>"; };
 		58A7B9082793EF8600D73A66 /* OfferDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferDemo.swift; sourceTree = "<group>"; };
-		58CD48B2279142CE005CB6EB /* LaundryApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LaundryApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		58CD48B5279142CE005CB6EB /* LaundryAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaundryAppApp.swift; sourceTree = "<group>"; };
+		58CD48B2279142CE005CB6EB /* Drive Cleaners.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Drive Cleaners.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		58CD48B5279142CE005CB6EB /* LaundryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaundryApp.swift; sourceTree = "<group>"; };
 		58CD48B7279142CE005CB6EB /* Title.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Title.swift; sourceTree = "<group>"; };
 		58CD48B9279142CF005CB6EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		58CD48BC279142CF005CB6EB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -106,7 +106,7 @@
 		58CD48B3279142CE005CB6EB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				58CD48B2279142CE005CB6EB /* LaundryApp.app */,
+				58CD48B2279142CE005CB6EB /* Drive Cleaners.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -114,7 +114,7 @@
 		58CD48B4279142CE005CB6EB /* LaundryApp */ = {
 			isa = PBXGroup;
 			children = (
-				58CD48B5279142CE005CB6EB /* LaundryAppApp.swift */,
+				58CD48B5279142CE005CB6EB /* LaundryApp.swift */,
 				58CD48B7279142CE005CB6EB /* Title.swift */,
 				5864CF0D2792BADA00978283 /* SignIn.swift */,
 				5864CF0F2792BAE700978283 /* SignUp.swift */,
@@ -151,9 +151,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		58CD48B1279142CD005CB6EB /* LaundryApp */ = {
+		58CD48B1279142CD005CB6EB /* Drive Cleaners */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 58CD48C1279142CF005CB6EB /* Build configuration list for PBXNativeTarget "LaundryApp" */;
+			buildConfigurationList = 58CD48C1279142CF005CB6EB /* Build configuration list for PBXNativeTarget "Drive Cleaners" */;
 			buildPhases = (
 				58CD48AE279142CD005CB6EB /* Sources */,
 				58CD48AF279142CD005CB6EB /* Frameworks */,
@@ -163,7 +163,7 @@
 			);
 			dependencies = (
 			);
-			name = LaundryApp;
+			name = "Drive Cleaners";
 			packageProductDependencies = (
 				58A7B8DE27936CBB00D73A66 /* FirebaseAuthCombine-Community */,
 				58A7B8E027936CBB00D73A66 /* FirebaseMessaging */,
@@ -181,7 +181,7 @@
 				58A7B8F827936CBB00D73A66 /* FirebaseFirestoreCombine-Community */,
 			);
 			productName = LaundryApp;
-			productReference = 58CD48B2279142CE005CB6EB /* LaundryApp.app */;
+			productReference = 58CD48B2279142CE005CB6EB /* Drive Cleaners.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -198,7 +198,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 58CD48AD279142CD005CB6EB /* Build configuration list for PBXProject "LaundryApp" */;
+			buildConfigurationList = 58CD48AD279142CD005CB6EB /* Build configuration list for PBXProject "Drive Cleaners" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -214,7 +214,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				58CD48B1279142CD005CB6EB /* LaundryApp */,
+				58CD48B1279142CD005CB6EB /* Drive Cleaners */,
 			);
 		};
 /* End PBXProject section */
@@ -253,7 +253,7 @@
 				58A7B9072793D46A00D73A66 /* DescriptionPopup.swift in Sources */,
 				58A7B9032793775700D73A66 /* OfferViewModel.swift in Sources */,
 				1A36F29C2792C81C00AD5C8B /* LaundryHouse.swift in Sources */,
-				58CD48B6279142CE005CB6EB /* LaundryAppApp.swift in Sources */,
+				58CD48B6279142CE005CB6EB /* LaundryApp.swift in Sources */,
 				1A64596D279363E200039A4E /* Manager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -424,7 +424,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		58CD48AD279142CD005CB6EB /* Build configuration list for PBXProject "LaundryApp" */ = {
+		58CD48AD279142CD005CB6EB /* Build configuration list for PBXProject "Drive Cleaners" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				58CD48BF279142CF005CB6EB /* Debug */,
@@ -433,7 +433,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		58CD48C1279142CF005CB6EB /* Build configuration list for PBXNativeTarget "LaundryApp" */ = {
+		58CD48C1279142CF005CB6EB /* Build configuration list for PBXNativeTarget "Drive Cleaners" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				58CD48C2279142CF005CB6EB /* Debug */,

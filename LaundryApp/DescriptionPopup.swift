@@ -28,7 +28,6 @@ struct Popup: View {
             Button(action: {
                
                     viewModel.showing.toggle()
-    
                 
             }) {
                 Image(systemName: "xmark").resizable()
