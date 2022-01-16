@@ -36,6 +36,8 @@
 		58A7B9012793772300D73A66 /* OfferView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58A7B9002793772300D73A66 /* OfferView.swift */; };
 		58A7B9032793775700D73A66 /* OfferViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58A7B9022793775700D73A66 /* OfferViewModel.swift */; };
 		58A7B90527937C4D00D73A66 /* FormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58A7B90427937C4D00D73A66 /* FormView.swift */; };
+		58A7B9072793D46A00D73A66 /* DescriptionPopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58A7B9062793D46900D73A66 /* DescriptionPopup.swift */; };
+		58A7B9092793EF8600D73A66 /* OfferDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58A7B9082793EF8600D73A66 /* OfferDemo.swift */; };
 		58CD48B6279142CE005CB6EB /* LaundryAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58CD48B5279142CE005CB6EB /* LaundryAppApp.swift */; };
 		58CD48B8279142CE005CB6EB /* Title.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58CD48B7279142CE005CB6EB /* Title.swift */; };
 		58CD48BA279142CF005CB6EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58CD48B9279142CF005CB6EB /* Assets.xcassets */; };
@@ -58,6 +60,8 @@
 		58A7B9002793772300D73A66 /* OfferView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferView.swift; sourceTree = "<group>"; };
 		58A7B9022793775700D73A66 /* OfferViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferViewModel.swift; sourceTree = "<group>"; };
 		58A7B90427937C4D00D73A66 /* FormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormView.swift; sourceTree = "<group>"; };
+		58A7B9062793D46900D73A66 /* DescriptionPopup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionPopup.swift; sourceTree = "<group>"; };
+		58A7B9082793EF8600D73A66 /* OfferDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferDemo.swift; sourceTree = "<group>"; };
 		58CD48B2279142CE005CB6EB /* LaundryApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LaundryApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		58CD48B5279142CE005CB6EB /* LaundryAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaundryAppApp.swift; sourceTree = "<group>"; };
 		58CD48B7279142CE005CB6EB /* Title.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Title.swift; sourceTree = "<group>"; };
@@ -119,7 +123,9 @@
 				58A7B8FC2793725300D73A66 /* ListingsViewModel.swift */,
 				58A7B9022793775700D73A66 /* OfferViewModel.swift */,
 				5864CF112792BAF600978283 /* HomeScreen.swift */,
+				58A7B9082793EF8600D73A66 /* OfferDemo.swift */,
 				58A7B9002793772300D73A66 /* OfferView.swift */,
+				58A7B9062793D46900D73A66 /* DescriptionPopup.swift */,
 				58A7B8D7279356F100D73A66 /* Settings.swift */,
 				58A7B8D5279356EA00D73A66 /* Listings.swift */,
 				58A7B90427937C4D00D73A66 /* FormView.swift */,
@@ -236,6 +242,7 @@
 				58A7B8FD2793725300D73A66 /* ListingsViewModel.swift in Sources */,
 				58A7B8D6279356EA00D73A66 /* Listings.swift in Sources */,
 				58CD48B8279142CE005CB6EB /* Title.swift in Sources */,
+				58A7B9092793EF8600D73A66 /* OfferDemo.swift in Sources */,
 				58A7B8D8279356F100D73A66 /* Settings.swift in Sources */,
 				5864CF122792BAF600978283 /* HomeScreen.swift in Sources */,
 				5864CF102792BAE700978283 /* SignUp.swift in Sources */,
@@ -243,6 +250,7 @@
 				58A7B8DC27936BD400D73A66 /* Repository.swift in Sources */,
 				58A7B8DA279356FB00D73A66 /* CreateListing.swift in Sources */,
 				5864CF0E2792BADA00978283 /* SignIn.swift in Sources */,
+				58A7B9072793D46A00D73A66 /* DescriptionPopup.swift in Sources */,
 				58A7B9032793775700D73A66 /* OfferViewModel.swift in Sources */,
 				1A36F29C2792C81C00AD5C8B /* LaundryHouse.swift in Sources */,
 				58CD48B6279142CE005CB6EB /* LaundryAppApp.swift in Sources */,

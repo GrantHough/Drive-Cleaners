@@ -25,8 +25,8 @@ struct FormView: View {
     var body: some View {
         NavigationView {
             VStack {
-                
                 Form {
+                    TextField("Name", text: $name)
                     TextField("Address", text: $address)
                     
                     Section(header: Text("Clothes Profile")) {
@@ -48,17 +48,15 @@ struct FormView: View {
                             Text(selectedSoap)
                         }
                         Toggle("Will you fold the clothes?", isOn: $willFoldClothes)
-                        Toggle("Will you dry the clothes?", isOn: $willDryClothes)
-                        Toggle("Will you deliver to the clients home?", isOn: $deliver)
-                        
-                        
-                        Picker("Estimated Time", selection: $estimateTime, content: { // <2>
-                            ForEach(1...60, id: \.self) {
+                        Toggle("Can you hang-dry clothes?", isOn: $willDryClothes)
+                        Toggle("Will you pickup/deliver to the clients home?", isOn: $deliver)
+                        Picker("Estimated Time (days)", selection: $estimateTime, content: { // <2>
+                            ForEach(1...10, id: \.self) {
                                 Text("\($0)")
                             }
                         })
                         TextField("Email: ", text: $email)
-                        TextField("What type of Load can you do?", text: $typeOfLoad)
+                        TextField("Any other specifics?", text: $typeOfLoad)
                         
                     }
                     

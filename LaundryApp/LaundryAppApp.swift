@@ -18,6 +18,7 @@ struct LaundryApp: App {
             let viewModel = AppViewModel()
             Title()
                 .environmentObject(viewModel)
+            
         }
         
     }

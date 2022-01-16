@@ -9,37 +9,54 @@ import SwiftUI
 
 struct Listings: View {
     
-    //@State var x: [LaundryHouse] = [ LaundryHouse(name: "Joan Singh", address: "6969 420 Streat WeedLansd USA"), LaundryHouse(name: "weedDealer", address: "I like doing weed at 1234 alphabet soup lane"), LaundryHouse(name: "Grant Hough", address: "14803 Granite Way"), LaundryHouse(name: "Neal Malhotra", address: "13030 La Vista Drive")]
     @ObservedObject var offerListViewModel: OfferListViewModel
     @State private var showingForm = false
     @State private var showFolding = false
+    @State private var showDelivery = false
+    @EnvironmentObject var viewModel: AppViewModel
     
     var body: some View {
-        NavigationView {
-            VStack {
+        
+        ZStack {
+            
+            LinearGradient(gradient: Gradient(colors: [Color.white, Color.blue]), startPoint: .top, endPoint: .bottomLeading).edgesIgnoringSafeArea(.all)
+            
+            VStack (spacing: 0) {
+                
+                Text("Listings")
+                    .font(.custom("Avenir", size: UIScreen.main.bounds.width * 0.1))
+                    .foregroundColor(Color.white)
+                    .fontWeight(.bold)
+                    .shadow(radius: 10)
+                
                 //  Text("")
                 //   List(Manager.listings, id: \.name) { xx in
                 //       VStack{
                 //         Text(xx.name)
                 //    Text(xx.address)
                 //  }
+                //
+                //                    Toggle(isOn: $showDelivery) { Text("\(showDelivery ? "Hide" : "Show") offers that include delivery") }
+                //                        .font(.custom("Avenir", size: UIScreen.main.bounds.width * 0.052))
                 
-                Toggle(isOn: $showFolding) { Text("\(showFolding ? "Hide" : "Show") folding offers") }
-                List {
+                ScrollView {
+                    
+                    Spacer()
+                        .frame(height: 10)
+                    
                     ForEach (offerListViewModel.offerViewModel.filter {
-                                $0.offer.folding == showFolding }) { offerVM in
+                                $0.offer.delivery == showDelivery }) { offerVM in
                         OfferView(offerViewModel: offerVM)
-                            .onLongPressGesture(minimumDuration: 1) {
-                                var offer = offerVM.offer
-                                offer.folding.toggle()
-                                offerListViewModel.update(offer)
-                            }
                     }
                     .onDelete(perform: delete)
                     
                 }
+                .frame(width: UIScreen.main.bounds.width - 20, height: UIScreen.main.bounds.height * 0.5)
+                .background(Color.black.opacity(0.1))
+                .cornerRadius(25)
                 .listStyle(InsetListStyle())
-                .navigationTitle("Offers")
+                .shadow(radius: 12)
+                .padding(.bottom, 12)
                 
                 Button(action: {
                     showingForm = true
@@ -55,9 +72,17 @@ struct Listings: View {
                         showingForm = false
                     }
                 }
+                .shadow(radius: 5)
+                
+                Spacer()
+                    .frame(height: UIScreen.main.bounds.height * 0.2)
             }
             .padding()
+            
+            
         }
+        
+        
     }
     
     private func delete(at offsets: IndexSet) {
@@ -65,10 +90,10 @@ struct Listings: View {
             .forEach(offerListViewModel.remove)
     }
 }
-    
-    
-    struct Listings_Previews: PreviewProvider {
-        static var previews: some View {
-            Listings(offerListViewModel: OfferListViewModel())
-        }
+
+
+struct Listings_Previews: PreviewProvider {
+    static var previews: some View {
+        Listings(offerListViewModel: OfferListViewModel())
     }
+}

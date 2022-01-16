@@ -24,10 +24,11 @@ struct SignUp: View {
                 VStack(spacing: 0) {
                     
                     Text("Sign Up")
-                        .font(.system(size: UIScreen.main.bounds.width * 0.1))
+                        .font(.custom("Avenir", size: UIScreen.main.bounds.width * 0.1))
                         .foregroundColor(Color.white)
                         .fontWeight(.bold)
                         .padding(5)
+                        .shadow(radius: 10)
                     
                     Rectangle()
                         .foregroundColor(.white)
@@ -92,7 +93,7 @@ struct SignUp: View {
             
             .ignoresSafeArea()
         }
-        
+        .navigationViewStyle(StackNavigationViewStyle())
     }
 }
 

@@ -39,6 +39,7 @@ struct HomeScreen: View {
             }
             
         }
+        .navigationViewStyle(StackNavigationViewStyle())
         .onAppear {
             viewModel.signedIn = viewModel.isSignedIn
         }

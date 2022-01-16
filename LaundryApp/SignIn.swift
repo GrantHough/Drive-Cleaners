@@ -14,6 +14,7 @@ class AppViewModel: ObservableObject {
     let auth = Auth.auth()
     
     @Published var signedIn = false
+    @Published var showing = false
     
     var isSignedIn: Bool {
         return auth.currentUser != nil
@@ -84,10 +85,11 @@ struct SignIn: View {
                 VStack(spacing: 0) {
                     
                     Text("Sign In")
-                        .font(.system(size: UIScreen.main.bounds.width * 0.1))
+                        .font(.custom("Avenir", size: UIScreen.main.bounds.width * 0.1))
                         .foregroundColor(Color.white)
                         .fontWeight(.bold)
                         .padding(5)
+                        .shadow(radius: 10)
                     
                     
                     Rectangle()
@@ -153,7 +155,7 @@ struct SignIn: View {
             
             .ignoresSafeArea()
         }
-        
+        .navigationViewStyle(StackNavigationViewStyle())
     }
     
 }
